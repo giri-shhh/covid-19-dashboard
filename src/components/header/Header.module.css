@@ -1,0 +1,11 @@
+.container {
+    background-color: white;
+    height: 9vh;
+    padding-left: 3vh;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: rgb(64, 63, 61);
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

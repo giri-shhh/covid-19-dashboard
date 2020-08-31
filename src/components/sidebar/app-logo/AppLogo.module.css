@@ -1,0 +1,11 @@
+.container {
+  width: 10vh;
+  height: 10vh;
+  position: absolute;
+}
+
+.appLogo {
+  padding: 4% 4%;
+  width: 8vh;
+  height: 8vh;
+}

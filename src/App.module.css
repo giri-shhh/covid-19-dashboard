@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: aqua;
+  border-color: black;
+}
+
+.sideContainer {
+  background-color: blue;
+  height: 100vh;
+}
+
+.dashContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: blueviolet;
+}
