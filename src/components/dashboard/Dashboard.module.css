@@ -1,5 +1,6 @@
 .container {
-    background-color: brown;
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  padding-top: 4vh;
+ background-color: whitesmoke;
 }

@@ -1,3 +1,71 @@
 .container {
-    margin-top: 5vh;
+  margin-top: 6vh;
+  background-color: white;
+  border-radius: 2vh;
+  display: flex;
+  padding: 3vh;
+  flex-direction: row;
+}
+.mapViewMain {
+  display: flex;
+  width: 90vh;
+  flex-direction: column;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.searchCountry {
+  padding: 1.2vh 3vh;
+  font-size: x-small;
+  background-color: whitesmoke;
+  border: 0vh;
+  border-radius: 5vh;
+}
+.mapButtonMain {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3vh;
+  justify-content: space-around;
+}
+.mapButton {
+  width: max-content;
+  padding: 1.3vh 3vh;
+  font-size: xx-small;
+  border-radius: 10vh;
+}
+
+img {
+  width: 95vh;
+  height: 65vh;
+}
+
+.overView {
+  display: flex;
+  margin-left: 5vh;
+  width: 35vh;
+  flex-direction: column;
+}
+
+.overViewContent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vh;
+}
+.map {
+  margin-top: 3vh;
+}
+
+.statView {
+  display: flex;
+  flex-direction: row;
+  margin: 1vh 0vh;
+  justify-content: space-between;
+}
+h5 {
+  color: darkslategrey;
 }

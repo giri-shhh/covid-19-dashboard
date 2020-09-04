@@ -1,9 +1,9 @@
 .container {
  height: 100vh;   
- padding: 4vh;
  flex : 2 1 auto;
  display: flex;
  flex-direction: column;
- max-width: 150vh;
- background-color: whitesmoke;
+ max-width: 145vh;
+ margin-left: 4vh;
+ margin-right: 2vh;
 }

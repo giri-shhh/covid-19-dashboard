@@ -5,16 +5,11 @@
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
-  margin-right: 5vh;
-  border: 1px  orange;
-  border-radius: 3px;
-}
-.heading {
-  color: cadetblue;
+  border-radius: 6px;
 }
 
 .count {
-  color: cadetblue;
   font-size: x-large;
   font-weight: 600;
 }
+

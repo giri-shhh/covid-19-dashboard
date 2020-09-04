@@ -1,11 +1,18 @@
 import React from 'react';
 import styles from './Card.module.css';
 
-const Card = ({ name: { name, color } }) => {
+const Card = (props) => {
   return (
-    <div className={styles.container} style={{ backgroundColor: color }}>
-      <p className={styles.heading}>{name}</p>
-      <p className={styles.count}>120,405,221</p>
+    <div
+      className={styles.container}
+      style={{ backgroundColor: props.primaryColor }}
+    >
+      <h5 style={{ color: props.secondaryColor }}>
+        {props.name}
+      </h5>
+      <h5 className={styles.count} style={{ color: props.secondaryColor }}>
+        120,405,221
+      </h5>
     </div>
   );
 };
