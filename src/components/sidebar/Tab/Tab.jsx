@@ -14,9 +14,14 @@ const Tab = (props) => {
           : {}
       }
     >
+      {props.icon}
       <p
         className={styles.tabName}
-        style={props.selectedTab ? { color: 'rgb(251,151,161)' } : {}}
+        style={
+          props.selectedTab
+            ? { color: 'rgb(251,151,161)' }
+            : { color: 'rgb(162,163,183)' }
+        }
       >
         {props.tab}
       </p>

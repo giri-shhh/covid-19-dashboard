@@ -47,14 +47,14 @@ img {
 .overView {
   display: flex;
   margin-left: 5vh;
-  width: 35vh;
+  width: 40vh;
   flex-direction: column;
 }
 
 .overViewContent {
   display: flex;
   flex-direction: column;
-  margin-top: 5vh;
+  margin-top: 7vh;
 }
 .map {
   margin-top: 3vh;

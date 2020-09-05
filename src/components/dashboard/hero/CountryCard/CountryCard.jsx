@@ -9,42 +9,46 @@ const stats = [
   {
     key: 'Confirmed Cases:',
     value: '12,445',
+    color: 'rgb(174,134,253)',
   },
   {
     key: 'New Cases:',
     value: '123,444,212',
+    color: 'rgb(255,172,18)',
   },
   {
     key: 'Active Cases:',
     value: '23,422',
+    color: 'rgb(255,181,44)',
   },
   {
     key: 'Deaths:',
     value: '23,000',
+    color: 'rgb(248,99,113)',
   },
   {
     key: 'Critical Cases:',
-    value: '23,000',
+    value: '--',
   },
   {
     key: 'Recovered:',
     value: '23,000',
+    color: 'rgb(85,212,206)',
   },
   {
     key: 'Death Rate',
     value: '23,000',
+    color: 'rgb(248,99,113)',
   },
   {
     key: 'Recovery Rate',
     value: '23,000',
-  },
-  {
-    key: 'Recovery Ratio',
-    value: '23,000',
+    color: 'rgb(85,212,206)',
   },
   {
     key: 'Tests Performed',
     value: '23,000',
+    color: 'rgb(83,166,254)',
   },
 ];
 
@@ -67,7 +71,7 @@ const mapButtons = [
   {
     key: 'Less Affected',
     primaryColor: 'rgb(21,196,187)',
-    secondaryColor: 'rgb(191,238,236)',
+    secondaryColor: 'rgb(231,248,247)',
   },
 ];
 const CountryCard = () => {
@@ -105,7 +109,7 @@ const CountryCard = () => {
           {stats.map((stat) => (
             <div className={styles.statView}>
               <h5>{stat.key}</h5>
-              <h5>{stat.value}</h5>
+              <h5 style={{ color: stat.color }}>{stat.value}</h5>
             </div>
           ))}
         </div>
