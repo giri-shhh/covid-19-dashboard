@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './CountryCard.module.css';
+import Map from './Map/Map';
 
 const stats = [
   {
@@ -101,7 +102,9 @@ const CountryCard = () => {
             </div>
           ))}
         </div>
-        <div className={styles.map}>Maps</div>
+        <div className={styles.map}>
+          <Map />
+        </div>
       </div>
       <div className={styles.overView}>
         <h4>Overview</h4>
